@@ -1,1 +1,1 @@
-export * from "./burgerClassic/BurgerClassic";
+export { BurgerClassic } from "./burgerClassic/BurgerClassic";
