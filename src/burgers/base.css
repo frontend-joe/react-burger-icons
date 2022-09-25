@@ -1,0 +1,27 @@
+.burger {
+  position: relative;
+  display: block;
+  width: 30px;
+  height: 2px;
+  background: #f9f9f9;
+  transition: all 0.3s;
+}
+
+.burger::before,
+.burger::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: inherit;
+  background: inherit;
+}
+
+.burger::before {
+  top: -8px;
+}
+
+.burger::after {
+  top: 8px;
+}

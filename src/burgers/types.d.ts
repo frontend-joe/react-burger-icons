@@ -1,0 +1,3 @@
+type BurgerProps = {
+  isClosed?: boolean;
+};
