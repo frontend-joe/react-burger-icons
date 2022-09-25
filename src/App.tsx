@@ -1,4 +1,4 @@
-import { BurgerClassic } from "./burgers/burgerClassic";
+import { BurgerClassic } from "./burgers";
 import "./App.css";
 import { useEffect, useState } from "react";
 
