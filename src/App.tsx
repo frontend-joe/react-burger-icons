@@ -1,14 +1,14 @@
-import { BurgerClassic } from "./burgers";
+import { BurgerRotate, BurgerArrow, BurgerClose } from "./library";
 import "./App.css";
 import { useEffect, useState } from "react";
 
 const burgers = [
-  BurgerClassic,
-  BurgerClassic,
-  BurgerClassic,
-  BurgerClassic,
-  BurgerClassic,
-  BurgerClassic,
+  { name: "Rotate", Burger: BurgerRotate },
+  { name: "Arrow", Burger: BurgerArrow },
+  { name: "Close", Burger: BurgerClose },
+  { name: "Swipe", Burger: BurgerRotate },
+  { name: "Smooth", Burger: BurgerArrow },
+  { name: "Sexy", Burger: BurgerClose },
 ];
 
 function App() {
@@ -26,8 +26,9 @@ function App() {
 
   return (
     <div className="wrapper">
-      {burgers.map((Burger, index) => (
-        <div className="cell">
+      {burgers.map(({ name, Burger }, index) => (
+        <div className="cell" key={name}>
+          <h2 className="cell-title">{name}</h2>
           <button onClick={() => handleBurgerClicked(index)}>
             <Burger isClosed={isClosedList[index]} />
           </button>

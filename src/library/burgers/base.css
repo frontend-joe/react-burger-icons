@@ -2,6 +2,12 @@
   position: relative;
   display: block;
   width: 30px;
+}
+
+.burger,
+.burger::before,
+.burger::after {
+  border-radius: 2px;
   height: 2px;
   background: #f9f9f9;
   transition: all 0.3s;
@@ -14,8 +20,6 @@
   position: absolute;
   left: 0;
   width: 100%;
-  height: inherit;
-  background: inherit;
 }
 
 .burger::before {
