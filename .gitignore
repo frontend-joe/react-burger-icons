@@ -4,7 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
-/src/library/dist
+src/library/dist
 
 # testing
 /coverage
