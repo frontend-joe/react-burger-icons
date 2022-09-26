@@ -8,10 +8,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+html,
+body,
+#root {
+  height: 100%;
+}
+
 * {
   box-sizing: border-box;
 }
 
 h2 {
   margin: 0;
+  font-weight: 400;
 }

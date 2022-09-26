@@ -1,4 +1,5 @@
 import { FC } from "react";
+import { BurgerProps } from "../../dist";
 import "../base.css";
 import "./styles.css";
 
