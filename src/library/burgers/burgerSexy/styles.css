@@ -1,22 +1,23 @@
-.burger.burger-sexy {
-  width: 24px;
-}
-
 .burger.burger-sexy,
 .burger.burger-sexy::before,
 .burger.burger-sexy::after {
-  transition-timing-function: linear;
+  transition-timing-function: ease-in-out;
   transition-duration: 0.2s;
 }
 
 .burger.burger-sexy::before,
 .burger.burger-sexy::after {
-  width: 12px;
+  width: 15px;
+}
+
+.burger.burger-sexy::before {
+  left: 0;
+  transform-origin: 100% 0%;
 }
 
 .burger.burger-sexy::after {
-  left: 12px;
-  transform-origin: 50% 50%;
+  left: 15px;
+  transform-origin: 0% 100%;
 }
 
 .burger.burger-sexy.is-closed {
@@ -24,9 +25,10 @@
 }
 
 .burger.burger-sexy.is-closed::before {
-  transform: rotate(90deg) translate(2px, -6px);
+  transform: rotate(90deg) translate(10px, -2px);
 }
 
 .burger.burger-sexy.is-closed::after {
-  transform: rotate(90deg) translate(-2px, 6px);
+  transform: rotate(90deg) translate(-9px, 0px);
+  width: 16px;
 }
