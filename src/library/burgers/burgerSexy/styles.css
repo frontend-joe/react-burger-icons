@@ -1,0 +1,32 @@
+.burger.burger-sexy {
+  width: 24px;
+}
+
+.burger.burger-sexy,
+.burger.burger-sexy::before,
+.burger.burger-sexy::after {
+  transition-timing-function: linear;
+  transition-duration: 0.2s;
+}
+
+.burger.burger-sexy::before,
+.burger.burger-sexy::after {
+  width: 12px;
+}
+
+.burger.burger-sexy::after {
+  left: 12px;
+  transform-origin: 50% 50%;
+}
+
+.burger.burger-sexy.is-closed {
+  transform: rotate(-45deg);
+}
+
+.burger.burger-sexy.is-closed::before {
+  transform: rotate(90deg) translate(2px, -6px);
+}
+
+.burger.burger-sexy.is-closed::after {
+  transform: rotate(90deg) translate(-2px, 6px);
+}

@@ -4,6 +4,7 @@ import {
   BurgerClose,
   BurgerSwipe,
   BurgerVeggie,
+  BurgerSexy,
 } from "./library";
 import "./App.css";
 import { useEffect, useState } from "react";
@@ -14,7 +15,7 @@ const burgers = [
   { name: "Close", Burger: BurgerClose },
   { name: "Swipe", Burger: BurgerSwipe },
   { name: "Veggie", Burger: BurgerVeggie },
-  { name: "Sexy", Burger: BurgerClose },
+  { name: "Sexy", Burger: BurgerSexy },
 ];
 
 function App() {
