@@ -1,4 +1,10 @@
-import { BurgerRotate, BurgerArrow, BurgerClose, BurgerSwipe } from "./library";
+import {
+  BurgerRotate,
+  BurgerArrow,
+  BurgerClose,
+  BurgerSwipe,
+  BurgerVeggie,
+} from "./library";
 import "./App.css";
 import { useEffect, useState } from "react";
 
@@ -7,7 +13,7 @@ const burgers = [
   { name: "Arrow", Burger: BurgerArrow },
   { name: "Close", Burger: BurgerClose },
   { name: "Swipe", Burger: BurgerSwipe },
-  { name: "Smooth", Burger: BurgerArrow },
+  { name: "Veggie", Burger: BurgerVeggie },
   { name: "Sexy", Burger: BurgerClose },
 ];
 
