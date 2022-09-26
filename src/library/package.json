@@ -20,7 +20,7 @@
       [
         "@babel/react",
         {
-          "runtime": "automatic"
+          "runtime": "classic"
         }
       ],
       [

@@ -9,11 +9,9 @@ require("../base.css");
 
 require("./styles.css");
 
-var _jsxRuntime = require("react/jsx-runtime");
-
 var BurgerSwipe = function BurgerSwipe(_ref) {
   var isClosed = _ref.isClosed;
-  return /*#__PURE__*/(0, _jsxRuntime.jsx)("span", {
+  return /*#__PURE__*/React.createElement("span", {
     className: "burger burger-swipe ".concat(isClosed && "is-closed")
   });
 };
