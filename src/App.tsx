@@ -5,7 +5,7 @@ import {
   BurgerSwipe,
   BurgerVeggie,
   BurgerSexy,
-} from "./library/dist";
+} from "./library";
 import "./App.css";
 import { useEffect, useState } from "react";
 
