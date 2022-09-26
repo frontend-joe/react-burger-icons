@@ -32,5 +32,6 @@ button {
   padding: 0;
   border: 0;
   background: transparent;
+  /* background: red; */
   cursor: pointer;
 }
