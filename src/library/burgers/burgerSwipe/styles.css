@@ -11,11 +11,9 @@
 }
 
 .burger.burger-swipe.is-closed::before {
-  opacity: 1;
   transform: rotate(-45deg) translate(30px, 40px);
 }
 
 .burger.burger-swipe.is-closed::after {
-  visibility: visible;
   transform: rotate(45deg) translate(30px, -42px);
 }

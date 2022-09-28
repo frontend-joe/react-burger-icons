@@ -1,5 +1,6 @@
 export type BurgerProps = {
   isClosed?: boolean;
+  className?: string;
 };
 
 export { BurgerRotate } from "./burgers/burgerRotate/BurgerRotate";

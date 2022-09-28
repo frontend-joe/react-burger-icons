@@ -5,4 +5,5 @@ type BurgerComponent = {
 
 type BurgerProps = {
   isClosed?: boolean;
+  className?: string;
 };
