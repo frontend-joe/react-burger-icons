@@ -1,6 +1,5 @@
 .burger.burger-boughie {
   transition: none;
-  /* height: 0; */
 }
 
 .burger.burger-boughie::before,
@@ -9,24 +8,14 @@
   transition-duration: 0.3s;
 }
 
-.burger.burger-boughie::before {
-  top: -8px;
-}
-
-.burger.burger-boughie::after {
-  top: 8px;
-}
-
 .burger.burger-boughie.is-closed {
-  transition: none;
   height: 0;
 }
 
-
 .burger.burger-boughie.is-closed::before {
-  transform: rotate(-405deg) translate(-4px, 6px);
+  transform: rotate(-405deg) translate(-6px, 4px);
 }
 
 .burger.burger-boughie.is-closed::after {
-  transform: rotate(405deg) translate(-4px, -8px);
+  transform: rotate(405deg) translate(-6px, -6px);
 }
