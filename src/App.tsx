@@ -5,6 +5,9 @@ import {
   BurgerSwipe,
   BurgerVeggie,
   BurgerSexy,
+  BurgerBoughie,
+  BurgerSpin,
+  BurgerFade,
 } from "./library";
 import "./App.css";
 import { useEffect, useState } from "react";
@@ -19,6 +22,9 @@ const burgers: BurgerComponent[] = [
   { name: "Swipe", Burger: BurgerSwipe },
   { name: "Veggie", Burger: BurgerVeggie },
   { name: "Sexy", Burger: BurgerSexy },
+  { name: "Boughie", Burger: BurgerBoughie },
+  { name: "Spin", Burger: BurgerSpin },
+  { name: "Fade", Burger: BurgerFade },
 ];
 
 function App() {
