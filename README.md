@@ -1,3 +1,10 @@
+> IMPORTANT INFO
+> All of the burger icons from this package
+> have moved to our new library - [react-icons-animated](https://www.npmjs.com/package/react-icons-animated).
+> react-burger-icons will be available forever too,
+> so if you're happy with it in it's current state -
+> there is no need to move over.
+
 # react-burger-icons
 
 Collection of animated burger icons to use in React apps.
